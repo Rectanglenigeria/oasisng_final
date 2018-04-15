@@ -1,0 +1,93 @@
+-----------------------------------------------------------------------
+Courage - WordPress Creative Blog Theme v 1.04 - Changelog
+-----------------------------------------------------------------------
+
+
+
+
+
+-------------------------------------------------------------------------------------------
+Please note:
+
+To update the Theme just replace changed files listed in this file.
+Recommend to make a backup of the Theme files before you overwrite them with the new ones.
+-------------------------------------------------------------------------------------------
+
+
+
+
+
+Version 1.04 2016-06-26
+--------------------------
+- Fixed: Minor bugs
+- Improved: Sticky menu
+- Updated: TGM Plugin Activation
+
+Changed files:
+- style.css
+- functions.php
+- /inc/class-tgm-plugin-activation.php
+
+
+
+
+
+Version 1.03 2016-03-15
+--------------------------
+- Fixed: Minor bugs
+
+Changed files:
+- style.css
+- functions.php
+- single.php
+
+
+
+
+
+Version 1.02 2015-09-07
+--------------------------
+- Fixed: Minor bugs
+- Updated: Widgets due changes in WordPress 4.3
+
+Changed files:
+- style.css
+- functions.php
+- /js/custom.js
+- /inc/class-tgm-plugin-activation.php
+- /inc/widgets/ct-categories-widget.php
+- /inc/widgets/ct-flickr-widget.php
+- /inc/widgets/ct-instagram-widget.php
+- /inc/widgets/ct-popular-posts-widget.php
+- /inc/widgets/ct-recent-comments-widget.php
+- /inc/widgets/ct-recent-posts-widget.php
+- /inc/widgets/ct-timeline-widget.php
+
+
+
+
+
+Version 1.01 2015-07-10
+--------------------------
+- Fixed: Minor bugs
+- Fixed: Bug with styles in Safari browser
+
+Changed files:
+- style.css
+- functions.php
+- /css/rwd-styles.css
+
+
+
+
+
+Version 1.0 2015-07-07
+--------------------------
+- Release
+
+
+
+
+ZERGE <zerge.com@gmail.com>
+http://color-theme.com/
+http://themeforest.net/user/ZERGE

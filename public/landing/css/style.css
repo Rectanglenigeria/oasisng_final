@@ -1,0 +1,589 @@
+/*-----------------------------------------------------------
+* Template Name    : Busion | Responsive Bootstrap 4 Landing Template
+* Author           : SRBThemes
+* Version          : 1.0.0
+* Created          : February 2018
+* File Description : Main css file of the template
+*------------------------------------------------------------
+*/
+
+
+/***********************
+    1.BASIC
+    2.HELPER
+    3.NAVBAR
+    4.HOME
+    5.SERVICE
+    6.CTA SECTION
+    7.FEATURES
+    8.PRICE
+    9.TESTIMONIAL
+    10.TEAM
+    11.FUNFACTS
+    12.FAQ
+    13.CONTACT
+    14.RESPONSIVE
+************************/
+
+@import url('../../../fonts.googleapis.com/cssf8d5.css?family=Nunito:400,600,700|Quattrocento+Sans:400,700');
+
+
+/*======================
+        1.BASIC
+========================*/
+
+body {
+    font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Quattrocento Sans', sans-serif;
+}
+
+a,
+a:hover,
+a:focus,
+button,
+button:focus {
+    text-decoration: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+
+/*==========================
+        2.HELPER
+============================*/
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    position: relative;
+    background-color: #fff;
+}
+
+.text-custom {
+    color: #0b52e4;
+}
+
+.h-100vh{
+    height: 100vh;
+}
+
+.z-index{
+    z-index: 2;
+}
+
+.bg-custom{
+    background-color: #0b52e4;
+}
+
+.bg-dark{
+    background-color: #1d1f25 !important;
+}
+
+.lan_sec-title{
+    max-width: 570px;
+}
+
+.bus_lan_titbor::after,
+.bus_lan_titbor::before {
+    display: inline-block;
+    margin-top: -7px;
+    vertical-align: middle;
+    content: "";
+    background-color: #d0d0d0;
+    width: 30px;
+    height: 1px;
+}
+
+.bus_lan_titbor i{
+    font-size: 20px;
+}
+
+.bus_subtitle{
+    max-width: 600px;
+}
+
+
+.bg-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.btn {
+    padding: 10px 22px;
+}
+
+.btn-rounded {
+    border-radius: 30px;
+}
+
+.btn-outline-custom {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.btn-outline-custom:hover,
+.btn-outline-custom:focus,
+.btn-outline-custom:active,
+.btn-outline-custom.active,
+.btn-outline-custom.focus,
+.btn-outline-custom:active,
+.btn-outline-custom:focus,
+.btn-outline-custom:hover,
+.open > .dropdown-toggle.btn-outline-custom {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    color: #000 !important;
+    transition: all 0.5s;
+}
+
+.btn-custom {
+    background-color: #0b52e4;
+    border: 1px solid #0b52e4;
+    color: #fff;
+    transition: all 0.5s;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom:active,
+.btn-custom.active,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom:focus,
+.btn-custom:hover,
+.open > .dropdown-toggle.btn-custom {
+    background-color: #1048bb;
+    border-color:#1048bb;
+    color: #f3f3f3;
+}
+
+.vertical-content {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    -webkit-justify-content: center;  
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}
+
+/*==========================
+        3.NAVBAR
+============================*/
+
+.custom-nav {
+    padding: 15px 0px;
+    width: 100%;
+    border-radius: 0px;
+    z-index: 999;
+    margin-bottom: 0px;
+    transition: all 0.5s ease-in-out;
+}
+
+.custom-nav .navbar-nav li a {
+    color: #989898;
+    font-size: 15px;
+    background-color: transparent !important;
+    padding: 15px 0;
+    margin: 0 7px;
+    transition: all 0.4s;
+    font-weight: 600;
+}
+
+.navbar-toggler {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+.stickyadd .navbar-nav {
+    margin-top: 0px;
+}
+
+.stickyadd.custom-nav {
+    margin-top: 0px;
+    padding: 8px 0px;
+    background-color: #1d1f25;
+    border-bottom:1px solid #2f2f2f;
+}
+
+.custom-nav .navbar-nav li.active a,
+.custom-nav .navbar-nav li a:hover,
+.custom-nav .navbar-nav li a:active {
+    color: #fff !important;
+}
+
+.navbar-toggle {
+    font-size: 24px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    color: #ffffff;
+}
+
+.custom-nav .btn-custom {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background-color: transparent;
+    border-color: #337ab7;
+}
+
+.custom-nav .navbar-brand {
+    text-transform: uppercase;
+    color: #fff !important;
+    font-weight: 600;
+    letter-spacing: 2px;
+    height: auto;
+    font-size: 22px;
+}
+
+
+/*==========================
+        4.HOME
+============================*/
+
+.home-bg {
+    background-color: #1d1f25;
+    position: relative;
+}
+
+.home-table-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.home-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.bus_home_title {
+    font-size: 44px;
+    line-height: 1.2;
+    text-transform: capitalize;
+}
+
+.bus_home_subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    max-width: 500px;
+}
+
+.bus_home_btn span {
+    position: relative;
+    top: 14px;
+}
+
+/*--Home-4--*/
+
+.home-bg-img{
+    background-image: url('../images/3.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.bg_img_subtitle{
+    color: rgba(255,255,255,0.5);
+}
+
+/*--Home-7/Home-8--*/
+
+.home-half{
+    padding: 250px 0 200px 0 !important;
+}
+/*==========================
+        5.SERVICES BOX
+============================*/
+
+.lan_box_ser {
+    padding: 0px 30px 30px;
+    border: 1px dotted #dadada;
+    border-radius: 10px;
+}
+
+.lan_box_ser .ser_icon i {
+    display: inline-block;
+    font-size: 30px;
+    width: 100px;
+    height: 75px;
+    line-height: 75px;
+    border-radius: 0 0 22px 22px;
+    color: #ffffff;
+    background-color: #0b52e4;
+}
+
+/*==========================
+        6.CTA SECTION
+============================*/
+
+.cta-desc{
+    max-width: 635px;
+}
+
+/*==========================
+        6.Features Box
+============================*/
+.lan_features_box .lan_features_icon i{
+    font-size: 32px;
+    color: #0b52e4;
+    height: 70px;
+    border-radius: 50%;
+    width: 70px;
+    line-height: 70px;
+    background:rgba(11, 82, 228, 0.09);
+    display: inline-block;
+}
+
+.lan_features_box .lan_features_content .lan_features_subtitle{
+    font-size: 18px;
+    line-height: 1.4;
+    max-width: 450px;
+}
+
+.lan_features_box p{
+    font-size: 15px;
+}
+
+/*==========================
+        7.PRICE BOX
+============================*/
+.price_bus_box{
+    padding: 40px;
+    border:1px solid #e9e9e9;
+    border-radius: 10px;
+}
+
+.price_bus_box.active{
+    transform: scale(1.1);
+    border-color: #0b52e4;
+}
+
+.price_bus_box .lan-price h1 sup,.price_bus_box .lan-price h1 sub{
+    font-size: 20px;
+}
+
+.price_bus_box .lan-price h1{
+    font-family: 'Nunito', sans-serif;
+}
+
+.price_bus_box .lan-price h1 sup{
+    position: relative;
+    top: -15px;
+}
+
+.price_bus_box .lan_price_feat{
+    padding:40px 0px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.price_bus_box .lan_price_feat p{
+    font-size: 14px;
+    color: #777;
+    font-weight: 600;
+}
+
+/*==========================
+        8.Testimonial
+============================*/
+.testi_boxes{
+    border:1px dashed #484848;
+    padding:15px;
+}
+
+.client_review{
+    font-size:15px;
+    color: rgba(255, 255, 255, 0.65);
+}
+
+.client_name {
+    font-size: 16px;
+}
+
+.testi_boxes .bus_testi_icon {
+    font-size: 36px;
+}
+
+.logo_img img {
+    max-height: 100px;
+    width: auto !important;
+    opacity: 0.3;
+}
+
+.logo_img img:hover {
+    opacity: 0.6;
+}
+
+/*=========================
+        9.TEAM
+===========================*/
+.bus_team_email{
+    font-size: 13px;
+}
+
+.bus_team_name{
+    font-size: 19px;
+}
+
+.bus_team_social{
+    border-top: 1px solid #d4d4d4;
+}
+
+.team_work_dec span{
+    border: 1px solid #b7b7b7;
+    border-radius: 30px;
+    padding: 6px 15px;
+    font-size: 16px;
+}
+
+.bus_team_social li a {
+    color: #808083;
+    transition: all 0.52s;
+    font-size:18px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.bus_team_social li a:hover{
+    color: #0b52e4;
+}
+
+/*==========================
+        10.FUNFACTS
+============================*/
+
+.lan_funfact{
+    border:1px dashed #484848;
+}
+
+.lan_funfact .lan_fun_name{
+    font-size: 15px;
+}
+
+/*==========================
+        11.FAQ
+============================*/
+
+.lan_faq_icon i{
+    font-size: 34px;
+}
+
+.lan_faq_dec h5{
+    font-size: 19px;
+}
+
+.lan_faq_dec p{
+    font-size: 15px;
+}
+
+/*==========================
+        12.Contact
+============================*/
+
+.form-control {
+    box-shadow: none !important;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+}
+
+.form-control:focus{
+    border-color: #0b52e4;
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.contact-icon{
+    font-size: 36px;
+}
+
+.lan_footer_alt_border{
+    height: 1px;
+    background-color: #2f2f2f;
+    width: 100%;
+}
+
+
+/*==========================
+        13.RESPONSIVE
+============================*/
+
+@media (max-width: 768px) {
+    .custom-nav {
+        margin-top: 0px;
+        padding: 10px 0px !important;
+        background-color: #1d1f25 !important;
+        box-shadow: 0 10px 33px rgba(0, 0, 0, .1);
+    }
+    .custom-nav .navbar-nav li a {
+        margin: 0 0px;
+        padding: 6px 0;
+    }
+    .custom-nav>.container {
+        width: 90%;
+    }
+    .custom-nav .navbar-nav li.active a {
+        border-color: transparent;
+    }
+    .login-btn {
+        padding-left: 10px;
+    }
+    .navbar-nav {
+        margin-top: 0px;
+    }
+    .navbar-toggler {
+        font-size: 24px;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        color: #ffffff;
+    }
+    .bus_home_title {
+        font-size: 32px;
+        line-height: 36px;
+    }
+    .bus_home_subtitle {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .price_bus_box.active{
+        transform: scale(1.0);
+    }
+    .vertical-content{
+        display: inherit;
+    }
+    .h-100vh{
+        height: auto;
+    }
+    .bus_home_btn span{
+        display: block;
+    }
+}
